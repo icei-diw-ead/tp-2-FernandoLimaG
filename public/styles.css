@@ -1,0 +1,90 @@
+/* ----- ESTILO GERAL DA PAGINA ----- */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== MENU ========== */
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ========== CORPO ========== */
+/* Criacao das colunas: Divisao Pagina Inteira */
+.container{
+    display: flex; 
+    min-height: 100vh;
+}
+
+/* Coluna Esquerda */
+.left{
+    width: 15%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+/* Coluna Direita */
+.right{
+    width: 85%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* ----- IMAGEM ----- */
+.left img{
+    max-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* ----- SEÇÕES ----- */
+section{
+    margin-bottom: 20px;
+}
+
+/* ----- TITULOS ----- */
+h1{
+    margin-bottom: 5px;
+}
+
+h2{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+/* ----- LISTAS ----- */
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 7.5px;
+}
+
+/* ----- PARÁGRAFOS ----- */
+p{
+    margin: 5px 0;
+}

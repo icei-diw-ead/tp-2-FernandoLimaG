@@ -2,9 +2,8 @@
 # Trabalho Prático - Semanas 3 e 4
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Fernando de Lima Gonçalves
+- Matricula: 905004
 
 ## Print da tela da página criada (Curriculum Vitae)
-
-`<Coloque aqui o print da tela do Curriculum Vitae>`
+![Print da tela de visualização da página criada](Print_Pagina.png)

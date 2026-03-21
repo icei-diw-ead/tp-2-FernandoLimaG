@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum Vitae</title>
+    <meta name="description" content="tp-2-FernandoLimaG">
+    <meta name="author" content="Fernando Goncalves">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!-- MENU DE NAVEGACAO: Processo futuro de desenvolvimento -->
+    <nav>
+        <ul>
+            <l1><a href="index.html">Inicio</a></l1>
+            <!-- Processo futuro: Distribuicao de pagina em acessos rapidos
+            <l1><a href="experiencia.html">Experiência</a></l1>
+            <l1><a href="educacao.html">Educação</a></l1>
+            <l1><a href="contato.html">Contato</a></l1>
+            -->
+        </ul>
+    </nav>
+    <!-- MAIN BLOCK: Separacao de colunas com 'div' 
+        Estruturacao dos blocos sera baseado no exemplo exibido pelo professor.
+        2 Colunas: Organizacao vertical de dados
+        - Coluna Esquerda:
+            - Foto de perfil
+            - Resumo profissional
+            - Habilidades = titulo: habilidades + body: descricao
+            - Linguas = titulo: Linguas + body: lista-linguas
+        
+        - Coluna Direita:
+            - Nome (Texto maior: Nome e Sobrenome)
+            - Area de atuacao/vaga requisitada
+            - DADOS: *Particionamento Vertical - '+' indica quebra de linha
+                -> Esquerda: Endereco completo (rua, numero + cidade, Pais) + nacionalidade
+                -> Direita: Email + Telefone + Data de Nascimento
+    -->
+    <div class="container">
+        <!-- INICIO COLUNA ESQUERDA -->
+        <div class="left">
+            <!-- FOTO -->
+            <img src="foto.png" alt="Foto de perfil de José Carlos"> <!-- FOTO DE TESTE: Organizacao-->
+            <!-- RESUMO: Nova section -->
+            <section>
+                <h2>Resumo</h2>
+                <p>
+                    Engenheiro de Computação com 6 anos de experiência no desenvolvimento 
+                    de soluções de software e infraestrutura de rede.
+                </p>
+            <!-- HABILIDADES: New section -->
+            </section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Linguagens:
+                    Python, <br>JavaScript,
+                    <br>TypeScript,
+                    <br>Java e C++
+                </li>
+                <li>Web & Dados:<br>
+                    React.js, Node.js<br>
+                    e MongoDB.
+                </li>
+                <li>Cloud & Devops:<br>
+                    AWS, Docker<br>
+                    e CI/CD.
+                </li>
+                <li>Outros:<br>
+                    Sistemas Embarcados<br>
+                    Git.
+                </li>
+            </ul>
+            <!-- LINGUAS: New section -->
+            <section>
+                <h2>Línguas</h2>
+                <ul>
+                    <li>Portugues - Nativo</li>
+                    <li>Inglês - Avançado</li>
+                </ul>
+            </section>
+            
+        </div> <!-- FIM DA COLUNA ESQUERDA -->
+
+        <!-- INICIO DA COLUNA DIREITA -->
+        <div class="right">
+            <!-- CABECALHO -->
+            <header>
+                <h1>José Carlos</h1>
+                <p>Desenvolvedor Sênior</p>
+                <p>
+                    Rua das Esmeraldas, 450 - Savassi<br>
+                    Belo Horizonte, MG - Brasil
+                </p>
+                <p>
+                    JoseCriscuolo@dev-mail.com<br>
+                    (31) 99876-5432<br>
+                    14/07/1996
+                </p>
+            </header> 
+            <!-- EXPERIENCIA -->
+            <section>
+                <h2>Experiência</h2>
+                <article>
+                    <h3>Desenvolvedor Sênior</h3>
+                    <p>TechMinas | Belo Horizonte</p>
+                    <p>Mar 2023 - Atual</p>
+                    <ul>
+                        <li>Liderança técnica em Python/React</li>
+                        <li>Mentoria e gestão de equipe</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Analista de Sistemas</h3>
+                    <p>Redes Gerais | Belo Horizonte</p>
+                    <p>Jan 2021 - Fev 2023</p>
+                    <ul>
+                        <li>Suporte avançado e QA</li>
+                    </ul>
+            </section>
+            <!-- EDUCACAO -->
+            <section>
+                <h2>Educação</h2>
+                <article>
+                    <h3>Bacharel em Engenharia de Computação</h3>
+                    <p>PUC Minas | Belo Horizonte</p>
+                    <p>Jan 2016 - Dez 2020</p>
+                </article>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
